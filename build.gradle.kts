@@ -14,6 +14,7 @@ repositories {
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
+    compile("org.uncommons.maths", "uncommons-maths", "1.2.2")
     testCompile("junit", "junit", "4.12")
 }
 
